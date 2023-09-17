@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+    <title>SurveyForm</title>
+</head>
+<body>
+    <h1 id="title">Tell me your story</h1>
+    <p id="description">In this survey I want you to share the path that you have passed in order to become who you are now :)</p>
+    <form action="" id="survey-form">
+        <fieldset>
+            <h3>Who are you?</h3>
+            <label for="name" id="name-label">Name<input type="text" name="name" id="name" required placeholder="Enter your Name" autocomplete="off"></label>
+            <label for="email" id="email-label">Email<input type="email" name="email" id="email" required placeholder="Enter your Email" autocomplete="off"></label>
+            <label for="number" id="number-label">Age (optional)<input type="number" name="number" id="number" min="13" max="120" placeholder="Enter your Age" autocomplete="off"></label>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <h3>What is your current role?</h3>
+            <select name="role" id="dropdown">
+                <option value="scr" disabled selected>select current role</option>
+                <option value="student">student</option>
+                <option value="ftj">full time job</option>
+                <option value="other">other</option>
+            </select>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <h3>What is your programming language?</h3>
+            <label for="js"><input id ='js' value ='js' id ='js' type="radio" name="coding-language" > Javascript</label>
+            <label for="python"><input id ='python' value ='python' id ='python' type="radio" name="coding-language" > Python</label>
+            <label for="c_plus_plus"><input id ='c_plus_plus' value ='c_plus_plus' id ='c_plus_plus' type="radio" name="coding-language" > C++</label>
+            <label for="other"><input id ='other' value ='other' id ='other' type="radio" name="coding-language" > Other</label>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <h3>What skills you have acquired with application of your programming language?</h3>
+            <label for="algorithms"><input id="algorithms" type="checkbox" name="coding-abilities" value="algorithms"/> Algorithms</label>
+            <label for="design-patterns"><input id="design-patterns" type="checkbox" name="coding-abilities" value="design-patterns"/> Design patterns</label>
+            <label for="parallel-programming"><input id="parallel-programming" type="checkbox" name="coding-abilities" value="parallel-programming"/> Parallel programming</label>
+            <label for="data-structures"><input id="data-structures" type="checkbox" name="coding-abilities" value="data-structures"/> Data structures</label>
+            <label for="other"><input id="other" type="checkbox" name="coding-abilities" value="other"/> Other</label>
+        </fieldset>
+        <hr>
+        <h3>Tell me your story</h3>
+        <textarea name="story" id="story" ></textarea>
+        <button id="submit">Submit</button>
+    </form>
+</body>
+</html>

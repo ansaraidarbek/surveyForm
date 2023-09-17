@@ -1,0 +1,119 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("https://4kwallpapers.com/images/walls/thumbs_3t/8968.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size:cover;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+h1, p{
+    color: white;
+    display: block;
+    width: 80vw;
+    text-align: center;
+    font-weight: bold;
+    max-width: 45rem;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 3rem 0 0 0;
+    padding: 0;
+}
+p{
+    font-size: 1rem;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+h3{
+    margin: 1vw 0 0 0;
+    font-size: 1.2rem;
+    color: white;
+}
+
+form{
+    padding: 2vw 5%;
+    width: 80vw;
+    max-width: 45rem;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.30);
+    background: linear-gradient(102deg, rgba(75, 75, 75, 0.75) 0%, rgba(77, 74, 74, 0.36) 100%);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+label{
+    margin: 1rem 0 0 0 ;
+    line-height: 0.2rem;
+    color: white;
+}
+
+input,select,textarea, #submit{
+    width: 96%;
+    padding: 1vh 2%;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2vh;
+}
+
+hr{
+    margin: 1vw 0 0 0 ;
+    width: 100%;
+    border: none;
+    border-top: dashed 1px white;
+}
+
+select{
+    margin: 1rem 0 0 0 ;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type='radio'], input[type='checkbox'] {
+    cursor: pointer;
+    display: inline;
+    margin: 0 0.5em 0 0;
+    width: unset;
+    vertical-align: middle;
+}
+
+textarea{
+    resize: none;
+    height: 20vh;
+    font-style: italic;
+}
+
+#submit{
+    cursor: pointer;
+    margin: 1vw auto 0 auto ;
+    height: 2rem;
+    width: 100%;
+}
+
+#submit:hover{
+    background-color: antiquewhite;
+}
