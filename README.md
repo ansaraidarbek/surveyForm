@@ -1,5 +1,5 @@
 # Survey form 
-this project shows my abilities to create form and validation fields
+this project shows my abilities to create survey forms and validation fields
 
 # Project snippet
 ![Preview](preview.jpg)
